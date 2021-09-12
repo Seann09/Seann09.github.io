@@ -71,6 +71,7 @@ ul {
   backface-visibility: hidden;
 }
         }
+ @media screen and (min-width: 280px){
 .middle {
   transition: .5s ease;
   opacity: 0;
@@ -80,7 +81,7 @@ ul {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
 }
-
+        }
 .container:hover .image {
   opacity: 0.3;
 }
@@ -88,14 +89,12 @@ ul {
 .container:hover .middle {
   opacity: 1;
 }
-@media screen and (min-width: 280px){
 .text {
   background-color: #4CAF50;
   color: white;
   font-size: 16px;
   padding: 14px 30px;
 }
-        }
 </style>
 </head>
 <body>
