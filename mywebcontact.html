@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: darkgrey;
+    }
+    
+    .active {
+        background-color: red;
+    }
+#fb button:hover {
+        background-color: DodgerBlue;
+    }
+    
+    .insta button:hover {
+        background-color: Plum;
+    }
+    
+    #fb {
+        padding: 1px;
+        margin: 2px 0 0 0;
+    }
+    
+    .insta {
+        padding: 1px;
+        margin: 2px 0 0 0;
+    }
+    .email {
+        font-variant: small-caps;
+        font-size: 18px;
+    }
+    .socials {
+        font-variant: small-caps;
+        font-size: 18px;
+    }
+    .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 14px 30px;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="my web.html" class="active">About</a></li>
+  <li><a href="mywebcontact.html">Contact</a></li>
+  </ul>
+<p class="material-icons">computer</p>
+<div class="container">
+  <img src="C:\Users\tsmrp\Downloads\ppimg.png" alt="Avatar" class="image" style="width:50%">
+  <div class="middle">
+    <div class="text">Hire me!</div>
+    <div class="text">tsmrplans@gmail.com</div>
+  </div>
+</div>
+<p class="socials">My Socials</p>
+<a href="https://www.facebook.com/neas.diondo">
+<p id="fb"</p>
+<button>
+<img src="C:\Users\tsmrp\Downloads\fblogo5.png" alt="Facebook"
+style="width:80px;height:50px;"></a>
+</button>
+<a href="https://www.instagram.com/diondosean/">
+<p class="insta"</p>
+<button>
+<img src="C:\Users\tsmrp\Downloads\instalogo2.png" alt="Instagram" 
+style="width:80px;height:50px;"></a>
+</button>
+</body>
+</html>
