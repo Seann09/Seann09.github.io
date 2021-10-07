@@ -55,7 +55,7 @@
         font-style: italic;
         font-family: fantasy;
     }
-body {
+.backimg {
 background-image: url(backimage.jpg);
 background-size: cover;
 width: 100%;
