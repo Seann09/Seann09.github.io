@@ -2,7 +2,8 @@
     
     h1, p{
         color: white;
-        text-decoration: overline;
+        display: flex;
+        justify-content: center;
     }
     
     ul {
